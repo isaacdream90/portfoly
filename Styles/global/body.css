@@ -1,0 +1,6 @@
+body {
+    /* height: 100vh; --- altura body = página completa */
+    box-sizing: border-box; /*impossibilita dos elementos filhos "saírem" do body*/
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
