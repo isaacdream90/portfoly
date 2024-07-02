@@ -1,44 +1,1400 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<!--<![endif]-->
+
+
+<!-- Mirrored from themesflat.co/html/binaseahtml/home6.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Jul 2024 09:16:01 GMT -->
+
 <head>
-    <meta charset="UTF-8"> <!--caracteres usados-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--compatibilidade com todos os navegado + Edge-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--tamanho da página = tela utilizada-->
-    <title>Portfólio Eduardo Kipper</title>
-    <link rel="stylesheet" href="./Styles/styles.css"> <!--importa o conteúdo externo-->
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <title>Binasea | NFT Marketplace HTML Template</title>
+
+    <meta name="author" content="themesflat.com">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Reponsive -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="assets/icon/Favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/icon/Favicon.png">
+
 </head>
-<body> <!--tags semânticas: header, main, footer, entre outros;-->
-    <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html"><img src="./Assets/home.png" class="icones">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-            <a class="cabecalho__menu__link" href="resume.html">Meu Currículo</a>
-        </nav>
-    </header>
-    <main class="apresentacao"><!--atributo class:determina a classe do elemento-->
-        <section class="apresentacao__conteudo">
-                <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="apresentacao__conteudo__titulo__destaque">com um DEV de qualidade!</strong><!--a tag strong da um destaque à linha;--></h1>
-                <p class="apresentacao__conteudo__paragrafo">Olá! Sou Eduardo Kipper, analista e desenvolvedor com especialidade em <strong class="apresentacao__conteudo__paragrafo__destaque">HTML, CSS, JAVASCRIPT, PYTHON e MySQL.</strong> Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-            <div class="apresentacao__conteudo__links">
-                <h2 class="apresentacao__conteudo__links__subtitulo">Acesse minhas redes:</h2>
-                <a class="apresentacao__conteudo__links__navegacao" target="_blank" href="https://www.linkedin.com/in/eduardo-kipper-3451771a4/">
-                    <img src="./Assets/linkedin.png" class="icones">
-                    LinkedIn
-                </a>
-                <a class="apresentacao__conteudo__links__navegacao" target="_blank" href="https://github.com/EduardoKipper">
-                    <img src="./Assets/github.png" class="icones">
-                    Github
-                </a>
-                <a class="apresentacao__conteudo__links__navegacao" target="_blank" href="https://api.whatsapp.com/send?phone=5548996994413&text=Olá%20Eduardo,%20me%20interessei%20pelo%20seu%20perfil%20e%20gostaria%20de%20entrar%20em%20contato%20para%20mais%20informações.">
-                    <img src="./Assets/whatsapp.png" class="icones">
-                    WhatsApp
-                </a>
+
+<body class="body header-fixed home-6">
+
+    <!-- preloade -->
+    <div class="preload preload-container">
+        <div class="preload-logo"></div>
+    </div>
+    <!-- /preload -->
+
+    <div id="wrapper" class="wrapper-style">
+        <div id="page" class="clearfix">
+            <header class="header absolute">
+                <div class="tf-container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="site-header-inner">
+                                <div id="site-logo" class="clearfix">
+                                    <div id="site-logo-inner">
+                                        <a href="#" rel="home" class="main-logo">
+                                            <img id="logo_header" src="assets/images/logo/logo_dark.png" alt="Image">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="header-center">
+                                    <nav id="main-nav" class="main-nav">
+                                        <ul id="menu-primary-menu" class="menu">
+                                            <li class="menu-item">
+                                                <a href="#">Home</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="#about">About</a>
+                                            </li>
+
+
+                                            <li class="menu-item">
+                                                <a href="#apps">Our Apps</a>
+                                            </li>
+
+                                            <li class="menu-item">
+                                                <a href="#blog">Blog</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="#contact">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </nav><!-- /#main-nav -->
+                                </div>
+
+                                <div class="header-right">
+
+                                    <a href="#" onclick="switchTheme()" class="mode-switch">
+                                        <img id="img-mode" src="assets/images/icon/moon.png" alt="Image">
+                                    </a>
+                                </div>
+
+                                <div class="mobile-button"><span></span></div><!-- /.mobile-button -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </header>
+
+
+            <section class="tf-slider">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="assets/images/slider/bg-slider-2.png" alt="Image" class="img-slider-1">
+                            <div class="swiper-container slider-home ">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="slider-item">
+                                            <div class="tf-slider-item style-6">
+                                                <div class="content-inner">
+                                                    <h1 class="heading">
+                                                        Dima Creative is working on<br>
+                                                        <span class="animationtext clip">
+                                                            <span class="cd-words-wrapper">
+                                                                <span class="item-text is-visible">Mobile App.</span>
+                                                                <span class="item-text is-hidden">Web App.</span>
+                                                                <span class="item-text is-hidden">Digital Art.</span>
+                                                            </span>
+                                                        </span>
+                                                    </h1>
+                                                    <p class="sub-heading">Dima Creative is a forward-thinking digital
+                                                        agency dedicated to creating innovative solutions in mobile app
+                                                        development, web app design, and digital art. </p>
+                                                    <div class="btn-slider ">
+                                                        <a href="https://play.google.com/store/apps/dev?id=7112919433425147619&hl=en" class="tf-button style-2">Google Play Store</a>
+                                                        <a href="https://apps.apple.com/us/developer/meron-shawul/id1729329163" class="tf-button style-9">App Store</a>
+                                                    </div>
+                                                </div>
+                                                <div class="image" >
+                                                    <div class="slider-card-img">
+                                                        <ul>
+                                                            <li class="prev2">
+                                                                <div class="sc-product style1 ">
+                                                                    <div class="top">
+                                                                        <a class="tag">Ethio Heads Up
+                                                                            </a>
+                                                                        <div class="wish-list">
+                                                                            <a href="#" class="heart-icon"></a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="features">
+                                                                        <div class="product-media">
+                                                                            <img src="assets/images/product/product75.jpg"
+                                                                                alt="images">
+                                                                        </div>
+                                                                       
+                                                                        <div class="rain-drop1"><img
+                                                                                src="assets/images/icon/rain1.svg"
+                                                                                alt="images"></div>
+                                                                        <div class="rain-drop2"><img
+                                                                                src="assets/images/icon/rain2.svg"
+                                                                                alt="images"></div>
+                                                                    </div>
+                                                                    <div class="bottom">
+                                                                        <div class="product-button">
+                                                                            <a href="https://play.google.com/store/apps/details?id=com.isaac.headsup&hl=en" 
+                                                                                class="tf-button"> <span
+                                                                                    class="icon-btn-product"></span>
+                                                                                Download</a>
+                                                                        </div>
+
+                                                                    </div>
+                                                            </li>
+                                                            <li class="prev1">
+                                                                <div class="sc-product style1 ">
+                                                                    <div class="top">
+                                                                        <a class="tag">የቤተሰብ ጨዋታ Family Game
+                                                                            </a>
+                                                                        <div class="wish-list">
+                                                                            <a href="#" class="heart-icon"></a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="features">
+                                                                        <div class="product-media">
+                                                                            <img src="assets/images/product/product79.jpg"
+                                                                                alt="images">
+                                                                        </div>
+                                                                       
+                                                                        <div class="rain-drop1"><img
+                                                                                src="assets/images/icon/rain1.svg"
+                                                                                alt="images"></div>
+                                                                        <div class="rain-drop2"><img
+                                                                                src="assets/images/icon/rain2.svg"
+                                                                                alt="images"></div>
+                                                                    </div>
+                                                                    <div class="bottom">
+                                                                        <div class="product-button">
+                                                                            <a href="https://play.google.com/store/apps/details?id=com.yishak.yebatesebchewata&hl=en" 
+                                                                                class="tf-button"> <span
+                                                                                    class="icon-btn-product"></span>
+                                                                                Download</a>
+                                                                        </div>
+
+                                                                    </div>
+                                                            </li>
+                                                            <li class="current">
+                                                                <div class="sc-product style1 ">
+                                                                    <div class="top">
+                                                                        <a class="tag">ቃላት ጨዋታ : Word Search
+                                                                            </a>
+                                                                        <div class="wish-list">
+                                                                            <a href="#" class="heart-icon"></a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="features">
+                                                                        <div class="product-media">
+                                                                            <img src="assets/images/product/product80.jpg"
+                                                                                alt="images">
+                                                                        </div>
+                                                                       
+                                                                        <div class="rain-drop1"><img
+                                                                                src="assets/images/icon/rain1.svg"
+                                                                                alt="images"></div>
+                                                                        <div class="rain-drop2"><img
+                                                                                src="assets/images/icon/rain2.svg"
+                                                                                alt="images"></div>
+                                                                    </div>
+                                                                    <div class="bottom">
+                                                                        <div class="product-button">
+                                                                            <a href="https://play.google.com/store/apps/details?id=com.dima.wordsearch&hl=en" 
+                                                                                class="tf-button"> <span
+                                                                                    class="icon-btn-product"></span>
+                                                                                Download</a>
+                                                                        </div>
+
+                                                                    </div>
+                                                            </li>
+                                                            <li class="next1">
+                                                                <div class="sc-product style1 ">
+                                                                    <div class="top">
+                                                                        <a class="tag">Play Krar
+                                                                            </a>
+                                                                        <div class="wish-list">
+                                                                            <a href="#" class="heart-icon"></a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="features">
+                                                                        <div class="product-media">
+                                                                            <img src="assets/images/product/product77.jpg"
+                                                                                alt="images">
+                                                                        </div>
+                                                                       
+                                                                        <div class="rain-drop1"><img
+                                                                                src="assets/images/icon/rain1.svg"
+                                                                                alt="images"></div>
+                                                                        <div class="rain-drop2"><img
+                                                                                src="assets/images/icon/rain2.svg"
+                                                                                alt="images"></div>
+                                                                    </div>
+                                                                    <div class="bottom">
+                                                                        <div class="product-button">
+                                                                            <a href="https://play.google.com/store/apps/details?id=com.playkrar.dimaCreative&hl=en" 
+                                                                                class="tf-button"> <span
+                                                                                    class="icon-btn-product"></span>
+                                                                                Download</a>
+                                                                        </div>
+
+                                                                    </div>
+                                                            </li>
+                                                            <li class="next2">
+                                                                <div class="sc-product style1 ">
+                                                                    <div class="top">
+                                                                        <a class="tag">Play Masinqo ማሲንቆ
+                                                                            </a>
+                                                                        <div class="wish-list">
+                                                                            <a href="#" class="heart-icon"></a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="features">
+                                                                        <div class="product-media">
+                                                                            <img src="assets/images/product/product76.jpg"
+                                                                                alt="images">
+                                                                        </div>
+                                                                       
+                                                                        <div class="rain-drop1"><img
+                                                                                src="assets/images/icon/rain1.svg"
+                                                                                alt="images"></div>
+                                                                        <div class="rain-drop2"><img
+                                                                                src="assets/images/icon/rain2.svg"
+                                                                                alt="images"></div>
+                                                                    </div>
+                                                                    <div class="bottom">
+                                                                        <div class="product-button">
+                                                                            <a href="https://play.google.com/store/apps/details?id=com.ismaelkedir.masinqo&hl=en" 
+                                                                                class="tf-button"> <span
+                                                                                    class="icon-btn-product"></span>
+                                                                                Download</a>
+                                                                        </div>
+
+                                                                    </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- item-->
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tf-section tf-banner-create banner2 style2 slide" id="about">
+                <div class="tf-container">
+                    <div class="row vertical-middle">
+                        <div class="col-md-6">
+                            <div class="content-banner">
+                                <h2 class="wow fadeInUp">About Ass
+                                    
+                                    <p>Dima Creative Company, founded by a visionary architect and digital artist, is dedicated to addressing the unique needs of Ethiopian users through innovative game and mobile application development.</p>
+                                    <h3>Our Mission</h3>
+                                    <p>Our mission is to develop engaging, problem-solving mobile games and applications tailored specifically for Ethiopian users.</p>
+                                    <h3>Our Vision</h3>
+                                    <p>We envision a thriving digital ecosystem in Ethiopia where locally developed games and apps address specific user needs and contribute to the growth of the tech industry in the region.</p>
+                                   
+                                    <h3>Founder’s Story</h3>
+                                    <p>Our founder, an architect and digital artist, has a rich background in 3D modeling, animation, logo design, and social media content creation. With a successful track record of building around 18 mobile apps, they bring a unique blend of technical skills and creative vision to the company.</p>
+                               
+                                <div class="star1 ani3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="202" height="202"
+                                        viewBox="0 0 202 202" fill="none">
+                                        <g opacity="0.7" filter="url(#filter0_f_1_100)">
+                                            <circle cx="100.767" cy="100.766" r="75.5"
+                                                transform="rotate(25.6898 100.767 100.766)"
+                                                fill="url(#paint0_linear_1_100)" fill-opacity="0.6" />
+                                        </g>
+                                        <path
+                                            d="M161.5 94L167.847 112.248L185 119L167.847 125.752L161.5 144L155.153 125.752L138 119L155.153 112.248L161.5 94Z"
+                                            fill="url(#paint1_linear_1_100)" />
+                                        <defs>
+                                            <filter id="filter0_f_1_100" x="5.2495" y="5.24892" width="191.035"
+                                                height="191.035" filterUnits="userSpaceOnUse"
+                                                color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                                    result="shape" />
+                                                <feGaussianBlur stdDeviation="10"
+                                                    result="effect1_foregroundBlur_1_100" />
+                                            </filter>
+                                            <linearGradient id="paint0_linear_1_100" x1="41.0879" y1="148.696"
+                                                x2="150.232" y2="164.451" gradientUnits="userSpaceOnUse">
+                                                <stop offset="0.0989583" stop-color="#F064F3" stop-opacity="0.9" />
+                                                <stop offset="0.760417" stop-color="#CB40CE" stop-opacity="0.1" />
+                                            </linearGradient>
+                                            <linearGradient id="paint1_linear_1_100" x1="161.5" y1="94" x2="161.5"
+                                                y2="144" gradientUnits="userSpaceOnUse">
+                                                <stop offset="0" stop-color="#F738FB" />
+                                                <stop offset="1" stop-color="#3749E9" stop-opacity="0" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="star2 ani3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="47" height="50" viewBox="0 0 47 50"
+                                        fill="none">
+                                        <path
+                                            d="M23.4994 0L29.8465 18.2477L46.9994 25L29.8465 31.7523L23.4994 50L17.1523 31.7523L-0.000610352 25L17.1523 18.2477L23.4994 0Z"
+                                            fill="url(#paint0_linear_0_6)" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_0_6" x1="23.4994" y1="0" x2="23.4994"
+                                                y2="50" gradientUnits="userSpaceOnUse">
+                                                <stop offset="0" stop-color="#F738FB" />
+                                                <stop offset="1" stop-color="#3749E9" stop-opacity="0" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-slide">
+                            <div class="swiper-container swiper mySwiper swiper-h">
+                                <div class="swiper-wrapper">
+
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper1 swiper-v">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide"><img src="assets/images/itemslide/sl1.jpg"
+                                                        alt="Image"></div>
+                                                <div class="swiper-slide"><img src="assets/images/itemslide/sl2.jpg"
+                                                        alt="Image"></div>
+                                                <div class="swiper-slide"><img src="assets/images/itemslide/sl3.jpg"
+                                                        alt="Image"></div>
+                                                <div class="swiper-slide"><img src="assets/images/itemslide/sl4.jpg"
+                                                        alt="Image"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-container swiper mySwiper swiper-h">
+                                <div class="swiper-wrapper">
+
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper2 swiper-v">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide"><img src="assets/images/itemslide/sl4.jpg"
+                                                        alt="Image"></div>
+                                                <div class="swiper-slide"><img src="assets/images/itemslide/sl5.jpg"
+                                                        alt="Image"></div>
+                                                <div class="swiper-slide"><img src="assets/images/itemslide/sl6.jpg"
+                                                        alt="Image"></div>
+                                                <div class="swiper-slide"><img src="assets/images/itemslide/sl7.jpg"
+                                                        alt="Image"></div>
+                                            </div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-container swiper mySwiper swiper-h">
+                                <div class="swiper-wrapper">
+
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper1 swiper-v">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide"><img src="assets/images/itemslide/sl7.jpg"
+                                                        alt="Image"></div>
+                                                <div class="swiper-slide"><img src="assets/images/itemslide/sl8.jpg"
+                                                        alt="Image"></div>
+                                                <div class="swiper-slide"><img src="assets/images/itemslide/sl9.jpg"
+                                                        alt="Image"></div>
+                                                <div class="swiper-slide"><img src="assets/images/itemslide/sl10.jpg"
+                                                        alt="Image"></div>
+                                            </div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-container swiper mySwiper swiper-h end">
+                                <div class="swiper-wrapper">
+
+                                    <div class="swiper-slide">
+                                        <div class="swiper mySwiper2 swiper-v">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide"><img src="assets/images/itemslide/sl10.jpg"
+                                                        alt="Image"></div>
+                                                <div class="swiper-slide"><img src="assets/images/itemslide/sl8.jpg"
+                                                        alt="Image"></div>
+                                                <div class="swiper-slide"><img src="assets/images/itemslide/sl2.jpg"
+                                                        alt="Image"></div>
+                                                <div class="swiper-slide"><img src="assets/images/itemslide/sl1.jpg"
+                                                        alt="Image"></div>
+                                            </div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tf-contact">
+                <div class="tf-container">
+                    <div class="row ">
+                        <div class="col-md-12">
+                            <div class="tf-heading style-4 mb63 wow fadeInUp">
+                                <h3 class="heading">NFT HABESHA GIRLS</h3>
+                                <a class="button" href="https://nft.habeshagirls.et">EXPLORE MORE</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="image ani4">
+                                <img src="assets/images/slider/slider-6.png" alt="Image">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="heading">
+                                HABESHA GIRLS, Collect And Sell Super Rate NFT
+                            </h3>
+                            <br>
+                            <p class="sub-heading">Habesha Girls, The series of digital art
+                                inspired by different heritages in Ethiopian is now Available
+                                for the Main Public Sale.</p><br><br>
+
+                            <div class="btn-slider ">
+                                <a href="https://nft.habeshagirls.et" class="tf-button style-2">Explore <i
+                                        class="far fa-long-arrow-right"></i></a>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section class="tf-section tf-hot-pick tf-filter" id="apps">
+                <div class="tf-container">
+                    <div class="row ">
+                        <div class="col-md-12">
+                            <div class="tf-heading mb23 wow fadeInUp">
+                                <h4 class="heading">Our Work</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="top-menu wow fadeInUp">
+                                <ul class="filter-menu">
+                                    <li class="active"><a href="#" data-filter=".all">All</a></li>
+                                    <li><a href="#" data-filter=".mobile">Mobile App</a></li>
+                                    <li><a href="#" data-filter=".web">Web App</a></li>
+                                    <li><a href="#" data-filter=".art">Digital Arts</a></li>
+
+                                </ul>
+                                <div id="item_category" class="dropdown">
+                                    <a href="#" class="btn-selector nolink ">Recently Create</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row tf-filter-container wow fadeInUp">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 tf-loadmore 3d all mobile">
+                            <div class="sc-product style2">
+                                <div class="top">
+                                    <a class="tag">የቤተሰብ ጨዋታ</a>
+                                </div>
+                                <div class="bottom">
+                                    <div class="details-product">
+                                        <div class="author">
+                                           
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="features">
+                                    <div class="product-media">
+                                        <img src="assets/images/product/product79.jpg" alt="images">
+                                    </div>
+                                    <div class="rain-drop1"><img src="assets/images/icon/rain1.svg" alt="images"></div>
+                                    <div class="rain-drop2"><img src="assets/images/icon/rain2.svg" alt="images"></div>
+                                </div>
+                                <div class="bottom-style2">
+                                    <div class="price">
+                                        
+                                        <div class="content">
+                                           
+                                            <div class="cash">FREE</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-button">
+                                        <a href="https://play.google.com/store/apps/details?id=com.yishak.yebatesebchewata&hl=en"  class="tf-button">
+                                            Download</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 tf-loadmore 3d all mobile">
+                            <div class="sc-product style2">
+                                <div class="top">
+                                    <a class="tag">Ethio Heads Up</a>
+                                </div>
+                                <div class="bottom">
+                                    <div class="details-product">
+                                        <div class="author">
+                                           
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="features">
+                                    <div class="product-media">
+                                        <img src="assets/images/product/product75.jpg" alt="images">
+                                    </div>
+                                    <div class="rain-drop1"><img src="assets/images/icon/rain1.svg" alt="images"></div>
+                                    <div class="rain-drop2"><img src="assets/images/icon/rain2.svg" alt="images"></div>
+                                </div>
+                                <div class="bottom-style2">
+                                    <div class="price">
+                                        
+                                        <div class="content">
+                                           
+                                            <div class="cash">FREE</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-button">
+                                        <a href="https://play.google.com/store/apps/details?id=com.isaac.headsup&hl=en"  class="tf-button">
+                                            Download</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 tf-loadmore 3d all mobile">
+                            <div class="sc-product style2">
+                                <div class="top">
+                                    <a class="tag">ቃላት ጨዋታ : Word Search</a>
+                                </div>
+                                <div class="bottom">
+                                    <div class="details-product">
+                                        <div class="author">
+                                           
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="features">
+                                    <div class="product-media">
+                                        <img src="assets/images/product/product80.jpg" alt="images">
+                                    </div>
+                                    <div class="rain-drop1"><img src="assets/images/icon/rain1.svg" alt="images"></div>
+                                    <div class="rain-drop2"><img src="assets/images/icon/rain2.svg" alt="images"></div>
+                                </div>
+                                <div class="bottom-style2">
+                                    <div class="price">
+                                        
+                                        <div class="content">
+                                           
+                                            <div class="cash">FREE</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-button">
+                                        <a href="https://play.google.com/store/apps/details?id=com.dima.wordsearch&hl=en"  class="tf-button">
+                                            Download</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 tf-loadmore 3d all mobile">
+                            <div class="sc-product style2">
+                                <div class="top">
+                                    <a class="tag">Play Krar</a>
+                                </div>
+                                <div class="bottom">
+                                    <div class="details-product">
+                                        <div class="author">
+                                           
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="features">
+                                    <div class="product-media">
+                                        <img src="assets/images/product/product77.jpg" alt="images">
+                                    </div>
+                                    <div class="rain-drop1"><img src="assets/images/icon/rain1.svg" alt="images"></div>
+                                    <div class="rain-drop2"><img src="assets/images/icon/rain2.svg" alt="images"></div>
+                                </div>
+                                <div class="bottom-style2">
+                                    <div class="price">
+                                        
+                                        <div class="content">
+                                           
+                                            <div class="cash">FREE</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-button">
+                                        <a href="https://play.google.com/store/apps/details?id=com.playkrar.dimaCreative&hl=en"  class="tf-button">
+                                            Download</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 tf-loadmore 3d all mobile">
+                            <div class="sc-product style2">
+                                <div class="top">
+                                    <a class="tag">Play Masinqo ማሲንቆ</a>
+                                </div>
+                                <div class="bottom">
+                                    <div class="details-product">
+                                        <div class="author">
+                                           
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="features">
+                                    <div class="product-media">
+                                        <img src="assets/images/product/product76.jpg" alt="images">
+                                    </div>
+                                    <div class="rain-drop1"><img src="assets/images/icon/rain1.svg" alt="images"></div>
+                                    <div class="rain-drop2"><img src="assets/images/icon/rain2.svg" alt="images"></div>
+                                </div>
+                                <div class="bottom-style2">
+                                    <div class="price">
+                                        
+                                        <div class="content">
+                                           
+                                            <div class="cash">FREE</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-button">
+                                        <a href="https://play.google.com/store/apps/details?id=com.ismaelkedir.masinqo&hl=en"  class="tf-button">
+                                            Download</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 tf-loadmore 3d all mobile">
+                            <div class="sc-product style2">
+                                <div class="top">
+                                    <a class="tag">ጠቅላላ እውቀት - General Knowledge</a>
+                                </div>
+                                <div class="bottom">
+                                    <div class="details-product">
+                                        <div class="author">
+                                           
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="features">
+                                    <div class="product-media">
+                                        <img src="assets/images/product/product77.jpg" alt="images">
+                                    </div>
+                                    <div class="rain-drop1"><img src="assets/images/icon/rain1.svg" alt="images"></div>
+                                    <div class="rain-drop2"><img src="assets/images/icon/rain2.svg" alt="images"></div>
+                                </div>
+                                <div class="bottom-style2">
+                                    <div class="price">
+                                        
+                                        <div class="content">
+                                           
+                                            <div class="cash">FREE</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-button">
+                                        <a href="https://play.google.com/store/apps/details?id=com.meinc.atekalayewket&hl=en"  class="tf-button">
+                                            Download</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 tf-loadmore 3d all mobile">
+                            <div class="sc-product style2">
+                                <div class="top">
+                                    <a class="tag">Amharic Word Search: ቃላት ፍለጋ</a>
+                                </div>
+                                <div class="bottom">
+                                    <div class="details-product">
+                                        <div class="author">
+                                           
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="features">
+                                    <div class="product-media">
+                                        <img src="assets/images/product/product68.jpg" alt="images">
+                                    </div>
+                                    <div class="rain-drop1"><img src="assets/images/icon/rain1.svg" alt="images"></div>
+                                    <div class="rain-drop2"><img src="assets/images/icon/rain2.svg" alt="images"></div>
+                                </div>
+                                <div class="bottom-style2">
+                                    <div class="price">
+                                        
+                                        <div class="content">
+                                           
+                                            <div class="cash">FREE</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-button">
+                                        <a href="https://play.google.com/store/apps/details?id=com.dima.hangman&hl=en"  class="tf-button">
+                                            Download</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 tf-loadmore 3d all mobile">
+                            <div class="sc-product style2">
+                                <div class="top">
+                                    <a class="tag">Tizita 90s Tv</a>
+                                </div>
+                                <div class="bottom">
+                                    <div class="details-product">
+                                        <div class="author">
+                                           
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="features">
+                                    <div class="product-media">
+                                        <img src="assets/images/product/product69.jpg" alt="images">
+                                    </div>
+                                    <div class="rain-drop1"><img src="assets/images/icon/rain1.svg" alt="images"></div>
+                                    <div class="rain-drop2"><img src="assets/images/icon/rain2.svg" alt="images"></div>
+                                </div>
+                                <div class="bottom-style2">
+                                    <div class="price">
+                                        
+                                        <div class="content">
+                                           
+                                            <div class="cash">FREE</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-button">
+                                        <a href="https://play.google.com/store/apps/details?id=com.Dimacreatives.tizita90s&hl=en"  class="tf-button">
+                                            Download</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 tf-loadmore 3d all mobile">
+                            <div class="sc-product style2">
+                                <div class="top">
+                                    <a class="tag">የስዕል ደብተር Coloring Book</a>
+                                </div>
+                                <div class="bottom">
+                                    <div class="details-product">
+                                        <div class="author">
+                                           
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="features">
+                                    <div class="product-media">
+                                        <img src="assets/images/product/product70.jpg" alt="images">
+                                    </div>
+                                    <div class="rain-drop1"><img src="assets/images/icon/rain1.svg" alt="images"></div>
+                                    <div class="rain-drop2"><img src="assets/images/icon/rain2.svg" alt="images"></div>
+                                </div>
+                                <div class="bottom-style2">
+                                    <div class="price">
+                                        
+                                        <div class="content">
+                                           
+                                            <div class="cash">FREE</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-button">
+                                        <a href="https://play.google.com/store/apps/details?id=com.dima.coloringbook&hl=en"  class="tf-button">
+                                            Download</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 tf-loadmore 3d all mobile">
+                            <div class="sc-product style2">
+                                <div class="top">
+                                    <a class="tag">ዘውድ ወይ ጎፈር Coin Flip</a>
+                                </div>
+                                <div class="bottom">
+                                    <div class="details-product">
+                                        <div class="author">
+                                           
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="features">
+                                    <div class="product-media">
+                                        <img src="assets/images/product/product71.jpg" alt="images">
+                                    </div>
+                                    <div class="rain-drop1"><img src="assets/images/icon/rain1.svg" alt="images"></div>
+                                    <div class="rain-drop2"><img src="assets/images/icon/rain2.svg" alt="images"></div>
+                                </div>
+                                <div class="bottom-style2">
+                                    <div class="price">
+                                        
+                                        <div class="content">
+                                           
+                                            <div class="cash">FREE</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-button">
+                                        <a href="https://play.google.com/store/apps/details?id=com.coinflip.dima&hl=en"  class="tf-button">
+                                            Download</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 tf-loadmore 3d all mobile">
+                            <div class="sc-product style2">
+                                <div class="top">
+                                    <a class="tag">Play Begena በገና</a>
+                                </div>
+                                <div class="bottom">
+                                    <div class="details-product">
+                                        <div class="author">
+                                           
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="features">
+                                    <div class="product-media">
+                                        <img src="assets/images/product/product72.jpg" alt="images">
+                                    </div>
+                                    <div class="rain-drop1"><img src="assets/images/icon/rain1.svg" alt="images"></div>
+                                    <div class="rain-drop2"><img src="assets/images/icon/rain2.svg" alt="images"></div>
+                                </div>
+                                <div class="bottom-style2">
+                                    <div class="price">
+                                        
+                                        <div class="content">
+                                           
+                                            <div class="cash">FREE</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-button">
+                                        <a href="https://play.google.com/store/apps/details?id=com.Begena.Simulation&hl=en"  class="tf-button">
+                                            Download</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 tf-loadmore 3d all web">
+                            <div class="sc-product style2">
+                                <div class="top">
+                                    <a class="tag">Tibeb Inprint</a>
+                                </div>
+                                <div class="bottom">
+                                    <div class="details-product">
+                                        <div class="author">
+                                           
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="features">
+                                    <div class="product-media">
+                                        <img src="assets/images/product/product73.jpg" alt="images">
+                                    </div>
+                                    <div class="rain-drop1"><img src="assets/images/icon/rain1.svg" alt="images"></div>
+                                    <div class="rain-drop2"><img src="assets/images/icon/rain2.svg" alt="images"></div>
+                                </div>
+                                <div class="bottom-style2">
+                                    
+                                    <div class="product-button">
+                                        <a href="https://tibebinprint.com"  class="tf-button">
+                                            View</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 tf-loadmore 3d all web">
+                            <div class="sc-product style2">
+                                <div class="top">
+                                    <a class="tag">Habesha Girls</a>
+                                </div>
+                                <div class="bottom">
+                                    <div class="details-product">
+                                        <div class="author">
+                                           
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="features">
+                                    <div class="product-media">
+                                        <img src="assets/images/product/product74.jpg" alt="images">
+                                    </div>
+                                    <div class="rain-drop1"><img src="assets/images/icon/rain1.svg" alt="images"></div>
+                                    <div class="rain-drop2"><img src="assets/images/icon/rain2.svg" alt="images"></div>
+                                </div>
+                                <div class="bottom-style2">
+                                    
+                                    <div class="product-button">
+                                        <a href="https://nft.habeshagirls.et/"  class="tf-button">
+                                            View</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="col-md-12">
+                        <div class="btn-loadmore mt17 wow fadeInUp">
+                            <a  class="tf-button style-4 loadmore">Load More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tf-section tf-top-seller">
+                <div class="tf-container">
+                    <div class="row wow fadeInUp">
+
+                        <div class="col-md-12">
+                            <div class="tf-heading style-4 mb44 ">
+                                <h3 class="heading">Ower Teams</h3>
+                                <a class="button" href="ranking.html">EXPLORE MORE </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="tf-author style-3">
+                                <span class="number">1</span>
+                                <div class="image">
+                                    <img src="assets/images/author/author1.png" alt="Image">
+                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9 0.730469L11.1971 2.96846L14.2901 2.44932L14.7521 5.55132L17.5595 6.94932L16.11 9.73047L17.5595 12.5116L14.7521 13.9096L14.2901 17.0116L11.1971 16.4925L9 18.7305L6.80289 16.4925L3.70993 17.0116L3.24789 13.9096L0.440492 12.5116L1.89 9.73047L0.440492 6.94932L3.24789 5.55132L3.70993 2.44932L6.80289 2.96846L9 0.730469Z"
+                                            fill="#3749E9" />
+                                        <path
+                                            d="M8.17054 12.8131C8.08681 12.896 7.97263 12.9423 7.85397 12.9423C7.73531 12.9423 7.62113 12.896 7.5374 12.8131L5.00929 10.3226C4.7469 10.0641 4.7469 9.64516 5.00929 9.38716L5.32587 9.07535C5.58826 8.81691 6.01319 8.81691 6.27558 9.07535L7.85397 10.63L12.119 6.42918C12.3814 6.17074 12.8067 6.17074 13.0687 6.42918L13.3853 6.74099C13.6477 6.99943 13.6477 7.41841 13.3853 7.67641L8.17054 12.8131Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="content">
+                                    <div class="title">
+                                        <a href="#">Binyam Adinew</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="tf-author style-3">
+                                <span class="number">2</span>
+                                <div class="image">
+                                    <img src="assets/images/author/author14.png" alt="Image">
+                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9 0.730469L11.1971 2.96846L14.2901 2.44932L14.7521 5.55132L17.5595 6.94932L16.11 9.73047L17.5595 12.5116L14.7521 13.9096L14.2901 17.0116L11.1971 16.4925L9 18.7305L6.80289 16.4925L3.70993 17.0116L3.24789 13.9096L0.440492 12.5116L1.89 9.73047L0.440492 6.94932L3.24789 5.55132L3.70993 2.44932L6.80289 2.96846L9 0.730469Z"
+                                            fill="#3749E9" />
+                                        <path
+                                            d="M8.17054 12.8131C8.08681 12.896 7.97263 12.9423 7.85397 12.9423C7.73531 12.9423 7.62113 12.896 7.5374 12.8131L5.00929 10.3226C4.7469 10.0641 4.7469 9.64516 5.00929 9.38716L5.32587 9.07535C5.58826 8.81691 6.01319 8.81691 6.27558 9.07535L7.85397 10.63L12.119 6.42918C12.3814 6.17074 12.8067 6.17074 13.0687 6.42918L13.3853 6.74099C13.6477 6.99943 13.6477 7.41841 13.3853 7.67641L8.17054 12.8131Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="content">
+                                    <div class="title">
+                                        <a href="#">Yishak Belete</a>
+                                    </div>
+                                    <div class="price">
+                                        <span class="price-eth">214.2 ETH</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="tf-author style-3">
+                                <span class="number">3</span>
+                                <div class="image">
+                                    <img src="assets/images/author/author15.png" alt="Image">
+                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9 0.730469L11.1971 2.96846L14.2901 2.44932L14.7521 5.55132L17.5595 6.94932L16.11 9.73047L17.5595 12.5116L14.7521 13.9096L14.2901 17.0116L11.1971 16.4925L9 18.7305L6.80289 16.4925L3.70993 17.0116L3.24789 13.9096L0.440492 12.5116L1.89 9.73047L0.440492 6.94932L3.24789 5.55132L3.70993 2.44932L6.80289 2.96846L9 0.730469Z"
+                                            fill="#3749E9" />
+                                        <path
+                                            d="M8.17054 12.8131C8.08681 12.896 7.97263 12.9423 7.85397 12.9423C7.73531 12.9423 7.62113 12.896 7.5374 12.8131L5.00929 10.3226C4.7469 10.0641 4.7469 9.64516 5.00929 9.38716L5.32587 9.07535C5.58826 8.81691 6.01319 8.81691 6.27558 9.07535L7.85397 10.63L12.119 6.42918C12.3814 6.17074 12.8067 6.17074 13.0687 6.42918L13.3853 6.74099C13.6477 6.99943 13.6477 7.41841 13.3853 7.67641L8.17054 12.8131Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="content">
+                                    <div class="title">
+                                        <a href="#">Abel</a>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="tf-author style-3">
+                                <span class="number">4</span>
+                                <div class="image">
+                                    <img src="assets/images/author/author16.png" alt="Image">
+                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9 0.730469L11.1971 2.96846L14.2901 2.44932L14.7521 5.55132L17.5595 6.94932L16.11 9.73047L17.5595 12.5116L14.7521 13.9096L14.2901 17.0116L11.1971 16.4925L9 18.7305L6.80289 16.4925L3.70993 17.0116L3.24789 13.9096L0.440492 12.5116L1.89 9.73047L0.440492 6.94932L3.24789 5.55132L3.70993 2.44932L6.80289 2.96846L9 0.730469Z"
+                                            fill="#3749E9" />
+                                        <path
+                                            d="M8.17054 12.8131C8.08681 12.896 7.97263 12.9423 7.85397 12.9423C7.73531 12.9423 7.62113 12.896 7.5374 12.8131L5.00929 10.3226C4.7469 10.0641 4.7469 9.64516 5.00929 9.38716L5.32587 9.07535C5.58826 8.81691 6.01319 8.81691 6.27558 9.07535L7.85397 10.63L12.119 6.42918C12.3814 6.17074 12.8067 6.17074 13.0687 6.42918L13.3853 6.74099C13.6477 6.99943 13.6477 7.41841 13.3853 7.67641L8.17054 12.8131Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="content">
+                                    <div class="title">
+                                        <a href="#">Michael</a>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="tf-author style-3">
+                                <span class="number">5</span>
+                                <div class="image">
+                                    <img src="assets/images/author/author17.png" alt="Image">
+                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9 0.730469L11.1971 2.96846L14.2901 2.44932L14.7521 5.55132L17.5595 6.94932L16.11 9.73047L17.5595 12.5116L14.7521 13.9096L14.2901 17.0116L11.1971 16.4925L9 18.7305L6.80289 16.4925L3.70993 17.0116L3.24789 13.9096L0.440492 12.5116L1.89 9.73047L0.440492 6.94932L3.24789 5.55132L3.70993 2.44932L6.80289 2.96846L9 0.730469Z"
+                                            fill="#3749E9" />
+                                        <path
+                                            d="M8.17054 12.8131C8.08681 12.896 7.97263 12.9423 7.85397 12.9423C7.73531 12.9423 7.62113 12.896 7.5374 12.8131L5.00929 10.3226C4.7469 10.0641 4.7469 9.64516 5.00929 9.38716L5.32587 9.07535C5.58826 8.81691 6.01319 8.81691 6.27558 9.07535L7.85397 10.63L12.119 6.42918C12.3814 6.17074 12.8067 6.17074 13.0687 6.42918L13.3853 6.74099C13.6477 6.99943 13.6477 7.41841 13.3853 7.67641L8.17054 12.8131Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="content">
+                                    <div class="title">
+                                        <a href="#">Dagem</a>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="tf-author style-3">
+                                <span class="number">6</span>
+                                <div class="image">
+                                    <img src="assets/images/author/author18.png" alt="Image">
+                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9 0.730469L11.1971 2.96846L14.2901 2.44932L14.7521 5.55132L17.5595 6.94932L16.11 9.73047L17.5595 12.5116L14.7521 13.9096L14.2901 17.0116L11.1971 16.4925L9 18.7305L6.80289 16.4925L3.70993 17.0116L3.24789 13.9096L0.440492 12.5116L1.89 9.73047L0.440492 6.94932L3.24789 5.55132L3.70993 2.44932L6.80289 2.96846L9 0.730469Z"
+                                            fill="#3749E9" />
+                                        <path
+                                            d="M8.17054 12.8131C8.08681 12.896 7.97263 12.9423 7.85397 12.9423C7.73531 12.9423 7.62113 12.896 7.5374 12.8131L5.00929 10.3226C4.7469 10.0641 4.7469 9.64516 5.00929 9.38716L5.32587 9.07535C5.58826 8.81691 6.01319 8.81691 6.27558 9.07535L7.85397 10.63L12.119 6.42918C12.3814 6.17074 12.8067 6.17074 13.0687 6.42918L13.3853 6.74099C13.6477 6.99943 13.6477 7.41841 13.3853 7.67641L8.17054 12.8131Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="content">
+                                    <div class="title">
+                                        <a href="#">Adanach</a>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="tf-author style-3">
+                                <span class="number">7</span>
+                                <div class="image">
+                                    <img src="assets/images/author/author19.png" alt="Image">
+                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9 0.730469L11.1971 2.96846L14.2901 2.44932L14.7521 5.55132L17.5595 6.94932L16.11 9.73047L17.5595 12.5116L14.7521 13.9096L14.2901 17.0116L11.1971 16.4925L9 18.7305L6.80289 16.4925L3.70993 17.0116L3.24789 13.9096L0.440492 12.5116L1.89 9.73047L0.440492 6.94932L3.24789 5.55132L3.70993 2.44932L6.80289 2.96846L9 0.730469Z"
+                                            fill="#3749E9" />
+                                        <path
+                                            d="M8.17054 12.8131C8.08681 12.896 7.97263 12.9423 7.85397 12.9423C7.73531 12.9423 7.62113 12.896 7.5374 12.8131L5.00929 10.3226C4.7469 10.0641 4.7469 9.64516 5.00929 9.38716L5.32587 9.07535C5.58826 8.81691 6.01319 8.81691 6.27558 9.07535L7.85397 10.63L12.119 6.42918C12.3814 6.17074 12.8067 6.17074 13.0687 6.42918L13.3853 6.74099C13.6477 6.99943 13.6477 7.41841 13.3853 7.67641L8.17054 12.8131Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="content">
+                                    <div class="title">
+                                        <a href="#">Hermela,</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="tf-author style-3">
+                                <span class="number">8</span>
+                                <div class="image">
+                                    <img src="assets/images/author/author20.png" alt="Image">
+                                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9 0.730469L11.1971 2.96846L14.2901 2.44932L14.7521 5.55132L17.5595 6.94932L16.11 9.73047L17.5595 12.5116L14.7521 13.9096L14.2901 17.0116L11.1971 16.4925L9 18.7305L6.80289 16.4925L3.70993 17.0116L3.24789 13.9096L0.440492 12.5116L1.89 9.73047L0.440492 6.94932L3.24789 5.55132L3.70993 2.44932L6.80289 2.96846L9 0.730469Z"
+                                            fill="#3749E9" />
+                                        <path
+                                            d="M8.17054 12.8131C8.08681 12.896 7.97263 12.9423 7.85397 12.9423C7.73531 12.9423 7.62113 12.896 7.5374 12.8131L5.00929 10.3226C4.7469 10.0641 4.7469 9.64516 5.00929 9.38716L5.32587 9.07535C5.58826 8.81691 6.01319 8.81691 6.27558 9.07535L7.85397 10.63L12.119 6.42918C12.3814 6.17074 12.8067 6.17074 13.0687 6.42918L13.3853 6.74099C13.6477 6.99943 13.6477 7.41841 13.3853 7.67641L8.17054 12.8131Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="content">
+                                    <div class="title">
+                                        <a href="#">Sehen</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                        
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tf-blog-detail" id="blog">
+                <div class="tf-container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="detail-inner">
+                                <div class="content-top">
+                                    <h4 class="title">I Believe Everyone Can Be A Designer As Long As They Love To Create</h4>
+                                    <div class="author-infor">
+                                        <div class="image">
+                                            <img src="assets/images/blog/author.jpg" alt="Image">
+                                        </div>
+                                        <span>by</span>
+                                        <a href="#">Dima Creative</a>
+                                        <span class="mr9">|</span>
+                                        <span>August 13, 2022</span>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="assets/images/blog/blog-details-1.jpg" alt="Image">
+                                </div>
+                                <div class="content-inner">
+                                    <h6 class="title">What Is The Most Fun Thing About Being A Designer?</h6>
+                                    <p>At Dima Creative, we believe the most enjoyable aspect of being a designer is the ability to transform imaginative ideas into real, tangible designs. Our passion lies in crafting beautiful, functional solutions that inspire and engage users.</p>
+                                    <p>Design is more than just aesthetics; it's about creating experiences that resonate with people on a deeper level. This philosophy drives everything we do at Dima Creative.</p>
+                                </div>
+                                <div class="image style-2">
+                                    <img class="mr20" src="assets/images/blog/blog-details-2.jpg" alt="Image">
+                                    <img src="assets/images/blog/blog-details-3.jpg" alt="Image">
+                                </div>
+                                <div class="content-inner">
+                                    <h6 class="title">How Is Your Daily Routine?</h6>
+                                    <p>Our daily routine at Dima Creative is a blend of creativity and collaboration. We start with brainstorming sessions to generate fresh ideas, followed by focused design and development work. Regular team meetings ensure everyone is aligned and working towards the same goals.</p>
+                                    <p>Balancing creative work with technical tasks, our team thrives on the diversity of projects we handle, from mobile apps to web apps and digital art. Each day brings new challenges and opportunities to innovate.</p>
+                                </div>
+                                <div class="image">
+                                    <img src="assets/images/blog/blog-details-4.jpg" alt="Image">
+                                </div>
+                                <div class="content-inner">
+                                    <h6 class="title">Our Design Philosophy</h6>
+                                    <p>At Dima Creative, our design philosophy centers around user experience and innovation. We believe that great design should not only look good but also provide meaningful and intuitive interactions. Our goal is to create designs that are not only visually appealing but also enhance the overall user experience.</p>
+                                    <p>We strive to stay ahead of trends, using the latest technologies and design principles to deliver outstanding results for our clients.</p>
+                                </div>
+                                <div class="content-bottom">
+                                    <div class="widget widget-social">
+                                        <h6 class="widget-title">Share:</h6>
+                                        <ul>
+                                            <li><a href="#" class="icon-fl-mess"></a></li>
+                                            <li><a href="#" class="icon-fl-coolicon"></a></li>
+                                            <li><a href="#" class="icon-fl-facebook"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="widget widget-tag">
+                                        <h6 class="widget-title">Tags:</h6>
+                                        <ul>
+                                            <li><a href="#">Design,</a></li>
+                                            <li><a href="#">Creativity,</a></li>
+                                            <li><a href="#">Innovation</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+            
+                                <div id="comments">
+                                    <h5 class="heading">Leave A Comment</h5>
+                                    <form action="https://themesflat.co/html/binaseahtml/contact/contact-process.php" method="post" id="commentform" class="comment-form">
+                                        <fieldset class="name"><input type="text" id="name" placeholder="Name" class="tb-my-input" name="name" tabindex="2" aria-required="true" required=""></fieldset>    
+                                        <fieldset class="email"><input type="email" id="email" placeholder="Email *" class="tb-my-input" name="email" tabindex="2" aria-required="true" required=""></fieldset>
+                                        <fieldset class="message"><textarea id="message" name="message" rows="4" placeholder="Message" tabindex="4" aria-required="true" required=""></textarea></fieldset>
+                                        <div class="btn-submit"><button class="tf-button" type="submit">Send comment</button></div>
+                                    </form>
+                                </div>
+                            </div>                        
+                        </div>                                     
+                    </div>
+                </div>
+            </section>
+            
+
+            
+
+
+            <!-- Footer -->
+            <footer class="footer" id="contact">
+                <div class="tf-container">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-3 col-md-3">
+                            <div class="widget widget-infor">
+                                <div class="logo">
+                                    <img id="logo_footer" src="assets/images/logo/logo_dark.png" alt="Image">
+                                </div>
+                                <p class="content">Dima Creative is a forward-thinking digital agency dedicated to creating innovative solutions in mobile app development, web app design, and digital art. Our team of skilled professionals is passionate about bringing your ideas to life with cutting-edge technology and creative artistry.</p>
+                                <ul class="social-item">
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class="icon-fl-tik-tok-2"></i></a></li>
+                                    <li><a href="#"><i class="icon-fl-vt"></i></a></li>
+                                </ul>
+                                <p class="copy-right">Copyright © 2024 Dima Creative. All Rights Reserved.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-5 col-md-5">
+                            <div class="widget widget-menu">
+                                <div class="menu menu-1">
+                                    <h6 class="widget-title">Short Link</h6>
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Our Apps</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu menu-2">
+                                    
+                                    <ul>
+                                        <li><a href="#">Gallery</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                       
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-4">
+                            <div class="widget widget-subcribe">
+                                <h6 class="widget-title">Subscribe Us</h6>
+                                <p class="content">Signup for our newsletter to get the latest news in your inbox.</p>
+                                <form action="#" id="subscribe-form">
+                                    <input type="email" placeholder="Info@yourgmail.com" required=""
+                                        id="subscribe-email">
+                                    <button class="tf-button" type="submit" id="subscribe-button"><i
+                                            class="icon-fl-send"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- Bottom -->
+        </div>
+        <!-- /#page -->
+    </div>
+    <!-- /#wrapper -->
+
+    <div class="modal fade popup" id="popup_bid" tabindex="-1" aria-modal="true" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body space-y-20 pd-40">
+                    <h3>Place a Bid</h3>
+                    <p class="text-center sub-heading">You must bid a least <span class="price color-popup">4.89
+                            ETH</span></p>
+                    <input type="text" class="form-control" placeholder="00.00 ETH">
+                    <p class="label-1">Enter quantity. <span class="color-popup">5 available</span>
+                    </p>
+                    <input type="text" class="form-control quantity form-bottom" value="1">
+                    <div class="d-flex justify-content-between detail-1">
+                        <p> You must bid at least:</p>
+                        <p class="text-right price color-popup"> 4.89 ETH </p>
+                    </div>
+                    <div class="d-flex justify-content-between detail-2">
+                        <p> Service free:</p>
+                        <p class="text-right price color-popup"> 0,89 ETH </p>
+                    </div>
+                    <div class="d-flex justify-content-between detail-3">
+                        <p> Total bid amount:</p>
+                        <p class="text-right price color-popup"> 4 ETH </p>
+                    </div>
+                    <a href="#" class="button-popup" data-toggle="modal" data-target="#popup_bid_success"
+                        data-dismiss="modal" aria-label="Close"> Place bid</a>
+                </div>
             </div>
-        </section>
-        <img class="apresentacao__imagem" src="./Assets/fotoeduardo.jpg" alt="Foto Eduardo" >
-    </main>
-    <footer class="rodape">
-        <p>Desenvolvido por Eduardo Kipper</p>
-    </footer>
+        </div>
+    </div>
+
+    <a id="scroll-top"></a>
+
+    <!-- Javascript -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.easing.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/count-down.js"></script>
+    <script src="assets/js/jquery.isotope.min.js"></script>
+    <script src="assets/js/textanimation.js"></script>
+    <script src="assets/js/switchmode.js"></script>
+    <script src="assets/js/plugin.js"></script>
+    <script src="assets/js/shortcodes.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
 </body>
+
+
+<!-- Mirrored from themesflat.co/html/binaseahtml/home6.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Jul 2024 09:16:30 GMT -->
+
 </html>
